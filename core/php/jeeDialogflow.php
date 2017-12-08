@@ -23,9 +23,8 @@ if (!isset($data['apikey']) || !jeedom::apiAccess($data['apikey'], 'dialogflow')
 	));
 	die();
 }
-$ips = array('107.178.232.183', '107.178.232.228', '107.178.232.173', '107.178.232.156');
 log::add('dialogoflow', 'debug', 'Data : ' . json_encode($data));
-if (!in_array(getClientIp(), $ips)) {
+if (!netMatch('107.178.232.*', getClientIp())) {
 	echo json_encode(array(
 		'reply' => __('IP client non autorisée : ', __FILE__) . getClientIp(),
 	));
