@@ -1,0 +1,9 @@
+{
+	"id" : "dialogflow",
+	"name" : "Dialog flow",
+	"description" : "Plugin permet de gerer un google home",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "3.0",
+	"category" : "communication"
+}
