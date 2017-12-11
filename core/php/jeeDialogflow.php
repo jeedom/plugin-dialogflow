@@ -15,6 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
+header('Content-type: application/json');
 require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 $data = json_decode(file_get_contents('php://input'), true);
 if (!isset($data['apikey']) || !jeedom::apiAccess($data['apikey'], 'dialogflow')) {
@@ -24,7 +25,7 @@ if (!isset($data['apikey']) || !jeedom::apiAccess($data['apikey'], 'dialogflow')
 	die();
 }
 log::add('dialogoflow', 'debug', 'Data : ' . json_encode($data));
-if (!netMatch('107.178.232.*', getClientIp()) && !netMatch('107.178.237.*', getClientIp()) && !netMatch('107.178.238.*', getClientIp())) {
+if (!netMatch('107.178.*.*', getClientIp())) {
 	echo json_encode(array(
 		'reply' => __('IP client non autorisée : ', __FILE__) . getClientIp(),
 	));
@@ -37,7 +38,21 @@ if (!$plugin->isActive()) {
 	));
 	die();
 }
-header('Content-type: application/json');
+$registers = config::byKey('registers', 'dialogflow');
+if (!isset($registers[$data['hash']])) {
+	$registers[$data['hash']] = array('date' => date('Y-m-d H:i:s'), 'accept' => 0);
+	config::save('registers', $registers, 'dialogflow');
+	echo json_encode(array(
+		'reply' => __('Compte non accepté. Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
+	));
+	die();
+} else if ($registers[$data['hash']]['accept'] != 1) {
+	echo json_encode(array(
+		'reply' => __('Compte non accepté. Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
+	));
+	die();
+}
+
 $params = array('plugin' => 'dialogflow', 'reply_cmd' => null);
 echo json_encode(interactQuery::tryToReply(trim($data['request']), $params));
 die();
