@@ -43,7 +43,7 @@ if (!isset($registers[$data['hash']])) {
 	$registers[$data['hash']] = array('date' => date('Y-m-d H:i:s'), 'accept' => 0);
 	config::save('registers', $registers, 'dialogflow');
 	echo json_encode(array(
-		'reply' => __('Compte non accepté. Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
+		'reply' => __('Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
 	));
 	die();
 } else if ($registers[$data['hash']]['accept'] != 1) {
