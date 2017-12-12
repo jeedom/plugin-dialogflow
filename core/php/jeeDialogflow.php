@@ -52,7 +52,12 @@ if (!isset($registers[$data['hash']])) {
 	));
 	die();
 }
-
+if (trim($data['request']) == 'register') {
+	echo json_encode(array(
+		'reply' => 'ok',
+	));
+	die();
+}
 $params = array('plugin' => 'dialogflow', 'reply_cmd' => null);
 echo json_encode(interactQuery::tryToReply(trim($data['request']), $params));
 die();
