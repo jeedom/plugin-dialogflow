@@ -38,6 +38,10 @@ try {
 		ajax::success();
 	}
 
+	if (init('action') == 'getConfigurationCode') {
+		ajax::success(dialogflow::getConfigurationCode());
+	}
+
 	throw new Exception(__('Aucune méthode correspondante à : ', __FILE__) . init('action'));
 	/*     * *********Catch exeption*************** */
 } catch (Exception $e) {
