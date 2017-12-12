@@ -34,6 +34,9 @@ try {
 		if (init('mode') == 'accept') {
 			$registers[init('key')]['accept'] = 1;
 		}
+		if (init('mode') == 'remove') {
+			unset($registers[init('key')]);
+		}
 		config::save('registers', $registers, 'dialogflow');
 		ajax::success();
 	}

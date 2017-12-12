@@ -25,6 +25,11 @@
  	actionRegister(key,'accept');
  });
 
+ $('.bt_remove').on('click',function(){
+ 	var key = $(this).closest('tr').attr('data-key');
+ 	actionRegister(key,'remove');
+ });
+
  $('#bt_getConfigurationCode').on('click',function(){
  	getConfigurationCode();
  });

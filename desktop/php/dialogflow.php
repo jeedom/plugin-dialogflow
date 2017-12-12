@@ -39,10 +39,11 @@ foreach ($registers as $key => $register) {
 	echo '</td>';
 	echo '<td>';
 	if ($register['accept'] == 1) {
-		echo '<a class="btn btn-xs btn-danger bt_refuse"><i class="fa fa-time"></i> {{Refuser}}</a>';
+		echo '<a class="btn btn-xs btn-warning bt_refuse"><i class="fa fa-times"></i> {{Refuser}}</a>';
 	} else {
 		echo '<a class="btn btn-xs btn-success bt_accept"><i class="fa fa-check"></i> {{Accepter}}</a>';
 	}
+	echo ' <a class="btn btn-xs btn-danger bt_remove"><i class="fa fa-trash"></i> {{Supprimer}}</a>';
 	echo '</td>';
 	echo '</tr>';
 }
