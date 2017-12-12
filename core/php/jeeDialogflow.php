@@ -45,6 +45,7 @@ if (!isset($registers[$data['hash']])) {
 	echo json_encode(array(
 		'reply' => __('Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
 	));
+	log::add('dialogflow', 'alert', __('Un nouvelle équipement dialogflow est en attente de validation. Veuillez aller sur la page du plugin et l\'accepter (ou pas).', __FILE__));
 	die();
 } else if ($registers[$data['hash']]['accept'] != 1) {
 	echo json_encode(array(
