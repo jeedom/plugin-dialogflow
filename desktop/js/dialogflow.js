@@ -68,7 +68,7 @@
  				$('#div_alert').showAlert({message: data.result, level: 'danger'});
  				return;
  			}
- 			bootbox.confirm('{{Veuillez dire ou taper "configuration" et donner le code suivant : }} <span style="font-weight: bold ;">' + data.result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + '</span>, celui-ci est valable 5min ?', function (result) {});
+ 			bootbox.confirm('{{Veuillez dire ou taper "code" et donner le code suivant : }} <span style="font-weight: bold ;">' + data.result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + '</span>, celui-ci est valable 5min ?', function (result) {});
  		}
  	});
  }
