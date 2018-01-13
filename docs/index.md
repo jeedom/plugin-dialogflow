@@ -22,4 +22,4 @@ Dans google home/assistant dites "configuration manuelle" et donnez les informat
 
 ## Acceptation du google home/assistant
 
-Posez une question à google home/assistant. Celui-ci ne répondra pas car il faut d'abord l'accepter coté Jeedom. Pour cela rafraichissez la page du plugin et acceptez le nouvelle identifiant
+Google home/assistant ne répondra pas car il faut d'abord l'accepter coté Jeedom. Pour cela rafraichissez la page du plugin et acceptez le nouvelle identifiant
