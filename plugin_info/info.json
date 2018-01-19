@@ -5,5 +5,7 @@
 	"licence" : "AGPL",
 	"author" : "Loïc",
 	"require" : "3.0",
-	"category" : "communication"
+	"category" : "communication",
+	"documentation" : "https://jeedom.github.io/plugin-dialogflow/index.html",
+	"changelog" : "https://jeedom.github.io/plugin-dialogflow/changelog.html"
 }
