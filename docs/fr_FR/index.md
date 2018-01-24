@@ -12,8 +12,6 @@ Installer le plugin et activé le. Ensuite allez sur la page Plugin -> Comminica
 >
 > Vous n'avez pas créer d'équipement pour ce plugin il faut juste suivre les instructions
 
-## Configuration simple
-
 Sur votre google home ou sur un téléphone avec google assistant, dites "parler avec Jeedom" :
 
 ![dialogflow](../images/dialogflow2.png)
