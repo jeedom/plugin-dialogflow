@@ -1,40 +1,40 @@
-# Présentation
+# Presentation
 
-Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une application native.
+The dialogflow plugin connects Jeedom to Google Home / Assitant with a native app.
 
-# Configuration
+# Setup
 
-Installez le plugin et activez-le. Ensuite allez sur la page Plugin -> Communication -> Dialog flow.
+Install the plugin and activate it. Then go to the Plugin -> Communication -> Dialog flow page.
 
 ![dialogflow](../images/dialogflow1.png)
 
-> **IMPORTANT**
->
-> Vous n'avez pas à créer d'équipement pour ce plugin. Il vous suffit de suivre les instructions ci-dessous.
+> ** IMPORTANT ** 
+> 
+> You do not have to create equipment for this plugin. Just follow the instructions below.
 
-Sur votre Google Home ou sur un téléphone avec Google Assistant, dites "Parler avec Jeedom" :
+On your Google Home or on a phone with Google Assistant, say "Speak with Jeedom":
 
 ![dialogflow](../images/dialogflow2.png)
 
-Sur votre Google Home ou sur un téléphone avec Google Assistant, dites "Code" :
+On your Google Home or on a phone with Google Assistant, say "Code":
 
 ![dialogflow](../images/dialogflow3.png)
 
-Sur Jeedom sur la page du plugin, cliquez sur le bouton code :
+On Jeedom on the plugin page, click the code button:
 
 ![dialogflow](../images/dialogflow4.png)
 
 ![dialogflow](../images/dialogflow5.png)
 
-et donnez le code généré à Google Home/Assistant (le code est valide 5 min) :
+and give the generated code to Google Home / Assistant (the code is valid 5 min):
 
 ![dialogflow](../images/dialogflow6.png)
 
-Retournez ensuite sur Jeedom et rafraîchissez la page. Vous allez avoir une demande d'acceptation d'un utilisateur Google, il vous faut la valider :
+Then return to Jeedom and refresh the page. You are going to have a request for acceptance from a Google user, you need to validate it:
 
 ![dialogflow](../images/dialogflow7.png)
 
-Voilà, le lien entre votre Jeedom et Google Home/Assistant est fait.
+That's it, the link between your Jeedom and Google Home / Assistant is done.
 
-Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home/Assistant.
-Depuis votre Google Home/Assistant, dites simplement "Parler à Jeedom", "Demande à Jeedom" ou encore "Dis à Jeedom" pour démarrer l'interaction avec Jeedom et "Merci" quand vous avez terminé pour clore la conversation.
+You can now talk to your Jeedom and use all the interactions of your Jeedom directly from your Google Home / Assistant.
+From your Google Home / Assistant, just say "Speak to Jeedom", "Ask Jeedom" or "Tell Jeedom" to start the interaction with Jeedom and "Thank you" when you're done to close the conversation.
