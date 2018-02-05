@@ -5,12 +5,6 @@ if (!isConnect('admin')) {
 $plugin = plugin::byId('dialogflow');
 ?>
 <br/>
-<div class="alert alert-info">{{Vous n'avez aucun équipement à créer pour ce plugin.}} <br/>
-	{{Vous devez juste dans google assisant <strong>lancer Jeedom</strong> (en tapant Jeedom). Puis <a class="btn btn-xs btn-default" id="bt_getConfigurationCode">cliquer ici</a> ou tapper <strong>"configuration manuelle"</strong>, il vous demandera :}}<br/>
-	- <strong>{{URL}}</strong> : <?php echo network::getNetworkAccess('external') ?><br/>
-	- <strong>{{APIKEY}}</strong> :  <?php echo jeedom::getApiKey('dialogflow') ?><br/>
-</div>
-
 <legend>{{Compte dialogflow actif}}</legend>
 <table class="table table-condensed table-bordered">
 	<thead>
