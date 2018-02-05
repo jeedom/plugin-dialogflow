@@ -30,10 +30,6 @@
  	actionRegister(key,'remove');
  });
 
- $('#bt_getConfigurationCode').on('click',function(){
- 	getConfigurationCode();
- });
-
  function actionRegister(_key,_mode){
  	$.ajax({
  		type: "POST",
@@ -53,27 +49,6 @@
  				return;
  			}
  			window.location.reload();
- 		}
- 	});
- }
-
- function getConfigurationCode(){
- 	$.ajax({
- 		type: "POST",
- 		url: "plugins/dialogflow/core/ajax/dialogflow.ajax.php", 
- 		data: {
- 			action: "getConfigurationCode",
- 		},
- 		dataType: 'json',
- 		error: function (request, status, error) {
- 			handleAjaxError(request, status, error);
- 		},
- 		success: function (data) {
- 			if (data.state != 'ok') {
- 				$('#div_alert').showAlert({message: data.result, level: 'danger'});
- 				return;
- 			}
- 			bootbox.confirm('{{Veuillez dire ou taper "code" et donner le code suivant : }} <span style="font-weight: bold ;">' + data.result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + '</span>, celui-ci est valable 5min ?', function (result) {});
  		}
  	});
  }

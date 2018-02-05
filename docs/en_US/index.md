@@ -8,7 +8,7 @@ Install the plugin and activate it. Then go to the Plugin -> Communication -> Di
 
 ![dialogflow](../images/dialogflow1.png)
 
-> ** IMPORTANT ** 
+> **IMPORTANT** 
 > 
 > You do not have to create equipment for this plugin. Just follow the instructions below.
 
