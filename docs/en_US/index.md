@@ -43,14 +43,6 @@ Google va vous indiquer que la configuration est crée/mise à jour avec succès
 
 ![dialogflow](../images/dialogflow4.png)
 
-Vous pouvez ensuite parler à Jeedom, lors du premiere échange vous allez avoir :
-
-![dialogflow](../images/dialogflow5.png)
-
-Il faut aller Jeedom puis la Plugin -> Communication -> Dialog flow (ou la rafraichir si vous êtes déja dessus). Vous allez avoir une demande d'acceptation d'un utilisateur Google, il vous faut la valider :
-
-![dialogflow](../images/dialogflow6.png)
-
 That's it, the link between your Jeedom and Google Home / Assistant is done.
 
 You can now talk to your Jeedom and use all the interactions of your Jeedom directly from your Google Home / Assistant.
