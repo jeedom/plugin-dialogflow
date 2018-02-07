@@ -6,15 +6,15 @@ Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une 
 >
 > Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bias de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions
 
-# Configuration
+# Setup
 
-Installez le plugin et activez-le. Ensuite allez sur la page Plugin -> Communication -> Dialog flow.
+Install the plugin and activate it. Then go to the Plugin -> Communication -> Dialog flow page.
 
 ![dialogflow](../images/dialogflow1.png)
 
-> **IMPORTANT**
->
-> Vous n'avez pas à créer d'équipement pour ce plugin. Il vous suffit de suivre les instructions ci-dessous.
+> **IMPORTANT** 
+> 
+> You do not have to create equipment for this plugin. Just follow the instructions below.
 
 Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profils et renseigner les champs : 
 
@@ -51,7 +51,13 @@ Il faut aller Jeedom puis la Plugin -> Communication -> Dialog flow (ou la rafra
 
 ![dialogflow](../images/dialogflow6.png)
 
-Voilà, le lien entre votre Jeedom et Google Home/Assistant est fait.
+That's it, the link between your Jeedom and Google Home / Assistant is done.
 
-Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home/Assistant.
-Depuis votre Google Home/Assistant, dites simplement "Parler à Jeedom", "Demande à Jeedom" ou encore "Dis à Jeedom" pour démarrer l'interaction avec Jeedom et "Merci" quand vous avez terminé pour clore la conversation.
+You can now talk to your Jeedom and use all the interactions of your Jeedom directly from your Google Home / Assistant.
+From your Google Home / Assistant, just say "Speak to Jeedom", "Ask Jeedom" or "Tell Jeedom" to start the interaction with Jeedom and "Thank you" when you're done to close the conversation.
+
+# FAQ
+
+>**Lors de la connexion j'ai eu page blanche avec du texte bizarre ?**
+>
+>Votre mot de passe ou nom d'utilisateur n'est pas reconnu. Avez vous bien activer Google Smarthome sur le market ? Avez vous bien mis une URL ? Avez vous bien mis une clef API pour dialogflow ? Avez vous bien attendu 24h suite à cela ? Mettez vous bien vos identifiants market ?
