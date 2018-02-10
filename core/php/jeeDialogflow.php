@@ -29,7 +29,7 @@ if (isset($data['lang']) && method_exists('translate', 'setLanguage') && strtolo
 		case 'en':
 			translate::setLanguage('en_US');
 			break;
-		case 'en-US':
+		case 'en-us':
 			translate::setLanguage('en_US');
 			break;
 	}
