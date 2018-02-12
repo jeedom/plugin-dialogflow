@@ -18,6 +18,14 @@
 header('Content-type: application/json');
 require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 $data = json_decode(file_get_contents('php://input'), true);
+if (isset($data['lang']) && method_exists('translate', 'setLanguage') && str_replace('_', '-', strtolower(translate::getLanguage())) != $data['lang']) {
+	if (strpos($data['lang'], 'en-') !== false) {
+		translate::setLanguage('en_US');
+	} elseif (strpos($data['lang'], 'fr-') !== false) {
+		translate::setLanguage('fr_FR');
+	}
+}
+
 if (!isset($data['apikey']) || !jeedom::apiAccess($data['apikey'], 'dialogflow')) {
 	echo json_encode(array(
 		'reply' => __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__),
@@ -38,20 +46,22 @@ if (!$plugin->isActive()) {
 	));
 	die();
 }
-$registers = config::byKey('registers', 'dialogflow');
-if (!isset($registers[$data['hash']])) {
-	$registers[$data['hash']] = array('date' => date('Y-m-d H:i:s'), 'accept' => 0);
-	config::save('registers', $registers, 'dialogflow');
-	echo json_encode(array(
-		'reply' => __('Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
-	));
-	log::add('dialogflow', 'alert', __('Un nouvelle équipement dialogflow est en attente de validation. Veuillez aller sur la page du plugin et l\'accepter (ou pas).', __FILE__));
-	die();
-} else if ($registers[$data['hash']]['accept'] != 1) {
-	echo json_encode(array(
-		'reply' => __('Compte non accepté. Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
-	));
-	die();
+if (config::byKey('enableSecureMode', 'dialogflow', 0) == 1) {
+	$registers = config::byKey('registers', 'dialogflow');
+	if (!isset($registers[$data['hash']])) {
+		$registers[$data['hash']] = array('date' => date('Y-m-d H:i:s'), 'accept' => 0);
+		config::save('registers', $registers, 'dialogflow');
+		echo json_encode(array(
+			'reply' => __('Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
+		));
+		log::add('dialogflow', 'alert', __('Un nouvelle équipement dialogflow est en attente de validation. Veuillez aller sur la page du plugin et l\'accepter (ou pas).', __FILE__));
+		die();
+	} else if ($registers[$data['hash']]['accept'] != 1) {
+		echo json_encode(array(
+			'reply' => __('Compte non accepté. Merci d\'aller sur la page du plugin dialogflow et d\'accepter le compte', __FILE__),
+		));
+		die();
+	}
 }
 if (trim($data['request']) == 'register') {
 	echo json_encode(array(
