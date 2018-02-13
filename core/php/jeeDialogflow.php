@@ -28,7 +28,7 @@ if (isset($data['lang']) && method_exists('translate', 'setLanguage') && str_rep
 
 if (!isset($data['apikey']) || !jeedom::apiAccess($data['apikey'], 'dialogflow')) {
 	echo json_encode(array(
-		'reply' => __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__),
+		'reply' => __('Vous n\'etes pas autorisé à effectuer cette action. Clef API invalide. Merci de corriger la clef API sur votre page profils du market et d\'attendre 24h avant de réessayer.', __FILE__),
 	));
 	die();
 }
