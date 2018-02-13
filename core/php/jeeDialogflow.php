@@ -18,20 +18,11 @@
 header('Content-type: application/json');
 require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 $data = json_decode(file_get_contents('php://input'), true);
-if (isset($data['lang']) && method_exists('translate', 'setLanguage') && strtolower(translate::getLanguage()) != $data['lang']) {
-	switch ($data['lang']) {
-		case 'fr-fr':
-			translate::setLanguage('fr_FR');
-			break;
-		case 'fr-ca':
-			translate::setLanguage('fr_FR');
-			break;
-		case 'en':
-			translate::setLanguage('en_US');
-			break;
-		case 'en-US':
-			translate::setLanguage('en_US');
-			break;
+if (isset($data['lang']) && method_exists('translate', 'setLanguage') && str_replace('_', '-', strtolower(translate::getLanguage())) != $data['lang']) {
+	if (strpos($data['lang'], 'en-') !== false) {
+		translate::setLanguage('en_US');
+	} elseif (strpos($data['lang'], 'fr-') !== false) {
+		translate::setLanguage('fr_FR');
 	}
 }
 
