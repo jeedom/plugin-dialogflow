@@ -63,4 +63,4 @@ Pour s'en servir rien de plus simple il faut aller sur la page de configuration 
 
 >**Google me dit que l'application n'est pas disponible**
 >
->L'application est pour l'instant limité géographiquement à la France. Nous l'ouvrir dans un second après les premiers retour
+>L'application est pour l'instant limité géographiquement à la métropole France. Nous l'ouvrir dans un second après les premiers retour
