@@ -61,6 +61,6 @@ Pour s'en servir rien de plus simple il faut aller sur la page de configuration 
 
 # FAQ
 
->**Lors de la connexion j'ai eu page blanche avec du texte bizarre ?**
+>**Google me dit que l'application n'est pas disponible**
 >
->Votre mot de passe ou nom d'utilisateur n'est pas reconnu. Avez vous bien activer Google Smarthome sur le market ? Avez vous bien mis une URL ? Avez vous bien mis une clef API pour dialogflow ? Avez vous bien attendu 24h suite à cela ? Mettez vous bien vos identifiants market ?
+>L'application est pour l'instant limité géographiquement à la France. Nous l'ouvrir dans un second après les premiers retour
