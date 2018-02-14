@@ -32,7 +32,7 @@ if (!isset($data['apikey']) || !jeedom::apiAccess($data['apikey'], 'dialogflow')
 	));
 	die();
 }
-log::add('dialogoflow', 'debug', 'Data : ' . json_encode($data));
+log::add('dialogflow', 'debug', 'Data : ' . json_encode($data));
 if (!netMatch('107.178.*.*', getClientIp())) {
 	echo json_encode(array(
 		'reply' => __('IP client non autorisée : ', __FILE__) . getClientIp(),
