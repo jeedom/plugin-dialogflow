@@ -20,6 +20,7 @@ require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
 function dialogflow_install() {
 	jeedom::getApiKey('dialogflow');
+	config::save('api::dialogflow::mode', 'enable', 'core');
 }
 
 function dialogflow_update() {
