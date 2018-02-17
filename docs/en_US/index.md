@@ -75,3 +75,7 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 >**J'ai l'erreur ESOCKETTIMEDOUT**
 >
 >C'est que votre URL ou la clef API configurée sur le market n'est pas bonne
+
+>**Lors d'un "parler a jeedom" vous recevez IMMÉDIATEMENT un "Erreur votre jeedom n'a pas répondu correctement code 500"**
+>
+>Aller sur cette [url](https://gala-demo.appspot.com), sur cette page selectionnez votre compte Google (celui utilisé par Google Home/Assistant) dans "Service ID" mettez jeedom-183212 et cliquez sur "Unlink my account" (bouton à droite). Ensuite dans Google Assistant refaite la configuration (sauf partie market)
