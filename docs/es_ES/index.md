@@ -60,7 +60,7 @@ Pour s'en servir rien de plus simple il faut aller sur la page de configuration 
 
 # Remise à zéro de la configuration
 
-Si vous avez mis une mauvais URL ou clef API il faut faire un reset de la configuration puis refaire la procedure de connexion voila comment faire.
+Si vous avez mis une mauvais URL ou clef API ou un changement d'url ou de clef API il faut faire un reset de la configuration puis refaire la procedure de connexion voila comment faire.
 
 Allez sur le market et corriger l'information, attendre 24h (il faut absolument que la configuration passe en actif).
 
