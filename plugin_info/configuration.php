@@ -24,11 +24,40 @@ if (!isConnect()) {
 ?>
 <form class="form-horizontal">
 	<fieldset>
-		<div class="form-group gshmode internal">
+		<div class="form-group">
 			<label class="col-lg-3 control-label">{{Mode sécurisé (chaque client doit être approuvé)}}</label>
 			<div class="col-lg-2">
 				<input type="checkbox" class="configKey" data-l1key="enableSecureMode" />
 			</div>
 		</div>
+		<div class="form-group">
+			<label class="col-lg-3 control-label">{{Envoyer configuration au market}}</label>
+			<div class="col-lg-2">
+				<a class="btn btn-default" id="bt_sendConfigToMarket"><i class="fa fa-paper-plane" aria-hidden="true"></i> {{Envoyer}}</a>
+			</div>
+		</div>
 	</fieldset>
 </form>
+
+<script>
+	$('#bt_sendConfigToMarket').on('click', function () {
+		$.ajax({
+			type: "POST",
+			url: "plugins/dialogflow/core/ajax/dialogflow.ajax.php",
+			data: {
+				action: "sendConfig",
+			},
+			dataType: 'json',
+			error: function (request, status, error) {
+				handleAjaxError(request, status, error);
+			},
+            success: function (data) { // si l'appel a bien fonctionné
+            if (data.state != 'ok') {
+            	$('#div_alert').showAlert({message: data.result, level: 'danger'});
+            	return;
+            }
+            $('#div_alert').showAlert({message: '{{Configuration envoyée avec succès}}', level: 'success'});
+        }
+    });
+	});
+</script>
