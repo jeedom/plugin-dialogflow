@@ -41,6 +41,11 @@ try {
 		ajax::success();
 	}
 
+	if (init('action') == 'sendConfig') {
+		dialogflow::sendJeedomConfig();
+		ajax::success();
+	}
+
 	throw new Exception(__('Aucune méthode correspondante à : ', __FILE__) . init('action'));
 	/*     * *********Catch exeption*************** */
 } catch (Exception $e) {
