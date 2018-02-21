@@ -8,7 +8,7 @@ Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une 
 
 # Configuration
 
-Installez le plugin et activez-le. Ensuite allez sur la page Plugin -> Communication -> Dialog flow.
+Installez le plugin et activez-le. Ensuite toujours sur la page de configuration du plugin cliquez sur "Envoyer" pour envoyer votre configuration au market.
 
 ![dialogflow](../images/dialogflow1.png)
 
@@ -16,10 +16,7 @@ Installez le plugin et activez-le. Ensuite allez sur la page Plugin -> Communica
 >
 > Vous n'avez pas à créer d'équipement pour ce plugin. Il vous suffit de suivre les instructions ci-dessous.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profil et renseigner les champs : 
-
-- URL du Jeedom (HTTPS obligatoire sinon votre configuration ne passera jamais active)
-- Clef API Dialoglow (Jeedom Interaction) : vous la trouverez sur la page d'administration de Jeedom, onglet API
+Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profil et attendre que le status passe à actif (ça prend environ 24h).
 
 ![dialogflow](../images/dialogflow7.png)
 
@@ -39,7 +36,7 @@ Indiquez vos identifiants market :
 
 ![dialogflow](../images/dialogflow3.png)
 
-Google va vous indiquer que la configuration est crée/mise à jour avec succès : 
+Google va vous indiquer que la configuration est créée/mise à jour avec succès : 
 
 ![dialogflow](../images/dialogflow4.png)
 
@@ -60,7 +57,7 @@ Pour s'en servir rien de plus simple, il faut aller sur la page de configuration
 
 # Remise à zéro de la configuration
 
-Si vous avez mis une mauvaise URL ou clef API il faut faire un reset de la configuration puis refaire la procédure de connexion, voilà comment faire.
+Si vous avez mis une mauvaise URL ou clef API ou un changement d'url ou de clef API il faut faire un reset de la configuration puis refaire la procédure de connexion voilà comment faire.
 
 Allez sur le market et corrigez l'information, attendre 24h (il faut absolument que la configuration passe en actif).
 
@@ -76,6 +73,10 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 >
 >C'est que votre URL ou la clef API configurée sur le market n'est pas bonne.
 
->**Lors d'un "parler a jeedom" vous recevez IMMÉDIATEMENT un "Erreur votre jeedom n'a pas répondu correctement code 500"**
+>**Lors d'un "parler a jeedom" vous recevez IMMÉDIATEMENT un "Erreur votre le serveur de configuration n'a pas répondu correctement. Merci d'aller voir la documentation code 500"**
 >
->Allez sur cette [url](https://gala-demo.appspot.com), sur cette page selectionnez votre compte Google (celui utilisé par Google Home/Assistant) dans "Service ID" mettez jeedom-183212 et cliquez sur "Unlink my account" (bouton à droite). Ensuite dans Google Assistant refaites la configuration (sauf partie market).
+>Aller sur cette [url](https://gala-demo.appspot.com), sur cette page selectionnez votre compte Google (celui utilisé par Google Home/Assistant) dans "Service ID" mettez jeedom-183212 et cliquez sur "Unlink my account" (bouton à droite). Ensuite dans Google Assistant refaite la configuration (sauf partie market)
+
+>**Erreur votre Jeedom n'a pas répondu correctement code ETIMEDOUT. Autre chose**
+>
+>Cela vient de votre Jeedom qui n'a pas répondu dans le temps impartie (imposé par Google). Cela peut venir de 2 choses, une connexion internet un peu lente, ou des actions qui demande trop de temps.

@@ -24,6 +24,13 @@ class dialogflow extends eqLogic {
 
 	/*     * ***********************Methode static*************************** */
 
+	public static function sendJeedomConfig() {
+		$market = repo_market::getJsonRpc();
+		if (!$market->sendRequest('gsh::configDialogflow', array('gsh::dialogflow::apikey' => jeedom::getApiKey('dialogflow'), 'gsh::url' => network::getNetworkAccess('external')))) {
+			throw new Exception($market->getError(), $market->getErrorCode());
+		}
+	}
+
 	/*     * *********************Méthodes d'instance************************* */
 
 	/*     * **********************Getteur Setteur*************************** */
