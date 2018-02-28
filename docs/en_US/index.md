@@ -36,6 +36,10 @@ Indiquez vos identifiants market :
 
 ![dialogflow](../images/dialogflow3.png)
 
+> **IMPORTANT**
+>
+> L'authentification est sensible à la case, donc si la connexion ne marche pas vérifiez bien que vous avez mis des majuscule si besoin (en particulier sur le login, qui pour rappel est celui du market).
+
 Google va vous indiquer que la configuration est crée/mise à jour avec succès : 
 
 ![dialogflow](../images/dialogflow4.png)
@@ -80,3 +84,7 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 >**Erreur votre Jeedom n'a pas répondu correctement code ETIMEDOUT. Autre chose**
 >
 >Cela vient de votre Jeedom qui n'a pas répondu dans le temps impartie (imposé par Google). Cela peut venir de 2 choses, une connexion internet un peu lente, ou des actions qui demande trop de temps.
+
+>**A chaque demande Google vous indique que votre configuration a bien été mise à jour**
+>
+>C'est que Google ne reconnait pas votre voix il vous considere donc comme un nouvelle utilisateur. Pour corriger vous pouvez essayer de reconfigurer voice match.
