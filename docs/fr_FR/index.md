@@ -36,10 +36,6 @@ Indiquez vos identifiants market :
 
 ![dialogflow](../images/dialogflow3.png)
 
-> **IMPORTANT**
->
-> L'authentification est sensible à la case, donc si la connexion ne marche pas vérifiez bien que vous avez mis des majuscule si besoin (en particulier sur le login, qui pour rappel est celui du market).
-
 Google va vous indiquer que la configuration est crée/mise à jour avec succès : 
 
 ![dialogflow](../images/dialogflow4.png)
