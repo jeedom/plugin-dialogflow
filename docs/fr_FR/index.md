@@ -22,7 +22,7 @@ Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms
 
 > **IMPORTANT**
 >
-> L'url d'accès de votre jeedom doit absolument etre en https
+> L'url d'accès de votre jeedom doit absolument être en https
 
 > **NOTE**
 >
