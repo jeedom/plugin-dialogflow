@@ -20,6 +20,10 @@ Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms
 
 ![dialogflow](../images/dialogflow7.png)
 
+> **IMPORTANT**
+>
+> L'url d'accès de votre jeedom doit absolument être en https
+
 > **NOTE**
 >
 > Vous ne pouvez connecter que un seul Jeedom à Google par compte market
