@@ -8,7 +8,7 @@ Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une 
 
 # Setup
 
-Install the plugin and activate it. Then go to the Plugin -> Communication -> Dialog flow page.
+Installez le plugin et activez-le. Ensuite toujours sur la page de configuration du plugin cliquez sur "Envoyer" pour envoyer votre configuration au market.
 
 ![dialogflow](../images/dialogflow1.png)
 
@@ -16,12 +16,13 @@ Install the plugin and activate it. Then go to the Plugin -> Communication -> Di
 > 
 > You do not have to create equipment for this plugin. Just follow the instructions below.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profils et renseigner les champs : 
-
-- URL du Jeedom (HTTPS obligatoire sinon votre configuration ne passera jamais active)
-- Clef API Dialoglow (Jeedom Interaction) : vous la trouverez sur la page d'administration de Jeedom, onglet API
+Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profils et attendre que le status passe à actif (ca prend environ 24h).
 
 ![dialogflow](../images/dialogflow7.png)
+
+> **IMPORTANT**
+>
+> L'url d'accès de votre jeedom doit absolument être en https
 
 > **NOTE**
 >
@@ -60,7 +61,7 @@ Pour s'en servir rien de plus simple il faut aller sur la page de configuration 
 
 # Remise à zéro de la configuration
 
-Si vous avez mis une mauvais URL ou clef API il faut faire un reset de la configuration puis refaire la procedure de connexion voila comment faire.
+Si vous avez mis une mauvais URL ou clef API ou un changement d'url ou de clef API il faut faire un reset de la configuration puis refaire la procedure de connexion voila comment faire.
 
 Allez sur le market et corriger l'information, attendre 24h (il faut absolument que la configuration passe en actif).
 
@@ -83,3 +84,7 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 >**Erreur votre Jeedom n'a pas répondu correctement code ETIMEDOUT. Autre chose**
 >
 >Cela vient de votre Jeedom qui n'a pas répondu dans le temps impartie (imposé par Google). Cela peut venir de 2 choses, une connexion internet un peu lente, ou des actions qui demande trop de temps.
+
+>**A chaque demande Google vous indique que votre configuration a bien été mise à jour**
+>
+>C'est que Google ne reconnait pas votre voix il vous considere donc comme un nouvelle utilisateur. Pour corriger vous pouvez essayer de reconfigurer voice match.
