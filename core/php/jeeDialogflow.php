@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
-header('Content-type: application/json');
+
 require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 if (init('apikey') != '') {
 	if (!jeedom::apiAccess(init('apikey'), 'dialogflow')) {
@@ -26,7 +26,7 @@ if (init('apikey') != '') {
 		die();
 	}
 }
-
+header('Content-type: application/json');
 $data = json_decode(file_get_contents('php://input'), true);
 if (isset($data['lang']) && method_exists('translate', 'setLanguage') && str_replace('_', '-', strtolower(translate::getLanguage())) != $data['lang']) {
 	if (strpos($data['lang'], 'en-') !== false) {
