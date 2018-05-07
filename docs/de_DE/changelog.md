@@ -1,6 +1,10 @@
+# 25/03/2018
+
+- Correction d'un bug sur le test de connexion sous firefox
+
 # 21/03/2018
 
-- Mise à jour de la doc
+- Aktualisierung des Dokuments
 
 # 22/02/2018
 
