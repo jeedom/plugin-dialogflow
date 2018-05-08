@@ -75,7 +75,7 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 
 >**J'ai l'erreur ESOCKETTIMEDOUT**
 >
->C'est que votre URL ou la clef API configurée sur le market n'est pas bonne
+>C'est que votre URL ou la clef API configurée sur le market n'est pas bonne. Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes.
 
 >**Lors d'un "parler a jeedom" vous recevez IMMÉDIATEMENT un "Erreur votre le serveur de configuration n'a pas répondu correctement. Merci d'aller voir la documentation code 500"**
 >

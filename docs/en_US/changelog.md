@@ -1,3 +1,7 @@
+# 07/05/2018
+
+- Mise à jour de la documentation pour préciser le timeout google
+
 # 25/03/2018
 
 - Correction d'un bug sur le test de connexion sous firefox
