@@ -8,7 +8,7 @@
 
 # 21/03/2018
 
-- Mise à jour de la doc
+- Actualización de la documentación
 
 # 22/02/2018
 
