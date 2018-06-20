@@ -69,10 +69,6 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 
 # FAQ
 
->**Google me dit que l'application n'est pas disponible**
->
->L'application est pour l'instant limité géographiquement à la métropole France. Nous l'ouvrir dans un second après les premiers retour
-
 >**J'ai l'erreur ESOCKETTIMEDOUT**
 >
 >C'est que votre URL ou la clef API configurée sur le market n'est pas bonne. Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes.
