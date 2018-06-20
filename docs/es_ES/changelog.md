@@ -1,3 +1,7 @@
+# 19/06/2018
+
+- Mise à jour de la documentation
+
 # 07/05/2018
 
 - Mise à jour de la documentation pour préciser le timeout google
