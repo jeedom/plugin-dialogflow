@@ -16,7 +16,7 @@ Installez le plugin et activez-le. Ensuite toujours sur la page de configuration
 > 
 > You do not have to create equipment for this plugin. Just follow the instructions below.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profils et attendre que le status passe à actif (ca prend environ 24h).
+Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Services" puis "Configurer" sur la ligne "Assistant vocaux" à partir de votre profils et attendre que le status passe à actif (ca prend environ 24h).
 
 ![dialogflow](../images/dialogflow7.png)
 
