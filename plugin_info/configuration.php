@@ -24,6 +24,11 @@ if (!isConnect()) {
 ?>
 <form class="form-horizontal">
 	<fieldset>
+		<?php
+		if(strpos(network::getNetworkAccess('external'),'https://') == -1){
+			echo '<div class="alert alert-danger">{{Attention votre connexion externe ne semble pas etre en https, ce plugin nécessite ABSOLUMENT une connexion https. Si vous ne savez pas comment faire vous pouvez souscrire à un service pack power pour utiliser le service de DNS Jeedom}}</div>';
+		}
+		?>
 		<div class="form-group">
 			<label class="col-lg-3 control-label">{{Mode sécurisé (chaque client doit être approuvé)}}</label>
 			<div class="col-lg-2">
