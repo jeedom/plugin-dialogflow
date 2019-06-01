@@ -1,3 +1,7 @@
+# 31/05/2019
+
+- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+
 # 19/06/2018
 
 - Updated documentation
