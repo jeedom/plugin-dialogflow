@@ -4,7 +4,23 @@ Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une 
 
 > **NOTE**
 >
-> Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bias de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions. CE PLUGIN N'EST PAS ENCORE DISPONIBLE
+> Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bais de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions.
+
+> **Important**
+>
+> Le plugin necessite un abonnement aux services vocaux. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+
+## Synchronisation et délai
+
+En mode cloud (et uniquement en mode cloud), il y a des délai de synchronisation lors des actions suivantes :
+
+- Activation du compte
+- Achat d'année sur le service Assistant Vocaux
+- Changement de clef api du plugin Google smarthome
+- Changement de l'url du jeedom
+- Changement de mot de passe market
+
+La synchronisation se fait toute les 6h (à 00h10,6h10,12h10,18h10). Cette synchronisation est du a notre volonté de rendre le serveur tierce qui fait le bon entre votre Jeedom et l'infrastructure Google Home independant et autonome (ca évite lors d'un soucis sur le market par exemple de perdre aussi les service Assistant vocaux). Lors de la synchronisation il y a un redemarrage du service (coupure de moins de 1s), ce qui explique la limitation à une fois toute les 6h.
 
 # Configuration
 
