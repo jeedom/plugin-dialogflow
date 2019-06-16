@@ -73,6 +73,9 @@ if (trim($data['request']) == 'register') {
 	));
 	die();
 }
+if (trim($data['request']) == '') {
+	die();
+}
 $params = array('plugin' => 'dialogflow', 'reply_cmd' => null);
 echo json_encode(interactQuery::tryToReply(trim($data['request']), $params));
 die();
