@@ -67,9 +67,7 @@ if (config::byKey('enableSecureMode', 'dialogflow', 0) == 1) {
 		die();
 	}
 }
-if (!isset($data['request']) || trim($data['request']) == '') {
-	die();
-}
+
 if (trim($data['request']) == 'register') {
 	echo json_encode(array(
 		'reply' => 'ok',
