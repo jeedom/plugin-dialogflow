@@ -12,7 +12,7 @@
 
 # 19/06/2018
 
-- Mise à jour de la documentation
+- Updated documentation
 
 # 07/05/2018
 
