@@ -30,12 +30,6 @@ if (!isConnect()) {
 		}
 		?>
 		<div class="form-group">
-			<label class="col-lg-3 control-label">{{Mode sécurisé (chaque client doit être approuvé)}}</label>
-			<div class="col-lg-2">
-				<input type="checkbox" class="configKey" data-l1key="enableSecureMode" />
-			</div>
-		</div>
-		<div class="form-group">
 			<?php
 			try {
 				$info =	dialogflow::voiceAssistantInfo();
