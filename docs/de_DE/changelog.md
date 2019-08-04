@@ -1,6 +1,11 @@
+# 03/08/2019
+
+- Correction de bug
+- Suppression du mode securisé suite à la supression de l'identifiant coté google
+
 # 16/06/2019
 
-- Fehlerbehebungen
+- Correction de bugs
 
 # 03/06/20198
 
@@ -24,7 +29,7 @@
 
 # 21/03/2018
 
-- Aktualisierung des Dokuments
+- Mise à jour de la doc
 
 # 22/02/2018
 
