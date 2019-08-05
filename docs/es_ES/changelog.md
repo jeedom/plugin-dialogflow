@@ -5,7 +5,7 @@
 
 # 16/06/2019
 
-- Correction de bugs
+- Corrección de errores
 
 # 03/06/20198
 
@@ -29,7 +29,7 @@
 
 # 21/03/2018
 
-- Mise à jour de la doc
+- Actualización de la documentación
 
 # 22/02/2018
 
