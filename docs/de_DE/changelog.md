@@ -1,3 +1,8 @@
+# 03/08/2019
+
+- Correction de bug
+- Suppression du mode securisé suite à la supression de l'identifiant coté google
+
 # 16/06/2019
 
 - Fehlerbehebungen
