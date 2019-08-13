@@ -1,3 +1,7 @@
+# 13/08/2019
+
+- Mise à jour de la documentation
+
 # 03/08/2019
 
 - Correction de bug
