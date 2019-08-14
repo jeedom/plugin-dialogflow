@@ -32,9 +32,7 @@ Install the plugin and activate it. Then still on the plugin configuration page 
 > 
 > You do not have to create equipment for this plugin. Just follow the instructions below.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Services" puis "Configurer" sur la ligne "Assistant vocaux" à partir de votre profils et attendre que le status passe à actif (ca prend environ 24h).
-
-![dialogflow](../images/dialogflow7.png)
+Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Services" puis "Configurer" sur la ligne "Assistant vocaux" à partir de votre profils et attendre que le status passe à actif (ca prend environ 6h).
 
 > **IMPORTANT**
 >
