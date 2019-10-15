@@ -1,3 +1,7 @@
+# 15/10/2019
+
+- Envoi automatique de la configuration au market lors de l'installation
+
 # 25/03/2018
 
 - Correction d'un bug sur le test de connexion sous firefox
