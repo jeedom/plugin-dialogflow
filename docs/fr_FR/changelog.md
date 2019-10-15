@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # 15/10/2019
 
 - Envoi automatique de la configuration au market lors de l'installation
-=======
+
 # 13/08/2019
 
 - Mise à jour de la documentation
@@ -31,7 +30,6 @@
 # 07/05/2018
 
 - Mise à jour de la documentation pour préciser le timeout google
->>>>>>> 6d8aea636d2d42d86d33c6bef0539871e52c4486
 
 # 25/03/2018
 
