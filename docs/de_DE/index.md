@@ -4,7 +4,23 @@ Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une 
 
 > **NOTE**
 >
-> Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bias de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions. CE PLUGIN N'EST PAS ENCORE DISPONIBLE
+> Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bais de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions.
+
+> **Important**
+>
+> Le plugin necessite un abonnement aux services vocaux. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+
+## Synchronisation et délai
+
+En mode cloud (et uniquement en mode cloud), il y a des délai de synchronisation lors des actions suivantes :
+
+- Activation du compte
+- Achat d'année sur le service Assistant Vocaux
+- Changement de clef api du plugin Google smarthome
+- Changement de l'url du jeedom
+- Changement de mot de passe market
+
+La synchronisation se fait toute les 6h (à 00h10,6h10,12h10,18h10). Cette synchronisation est du a notre volonté de rendre le serveur tierce qui fait le bon entre votre Jeedom et l'infrastructure Google Home independant et autonome (ca évite lors d'un soucis sur le market par exemple de perdre aussi les service Assistant vocaux). Lors de la synchronisation il y a un redemarrage du service (coupure de moins de 1s), ce qui explique la limitation à une fois toute les 6h.
 
 # Konfiguration
 
@@ -16,9 +32,7 @@ Installez le plugin et activez-le. Ensuite toujours sur la page de configuration
 >
 > Vous n'avez pas à créer d'équipement pour ce plugin. Il vous suffit de suivre les instructions ci-dessous.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Jeedoms" à partir de votre profils et attendre que le status passe à actif (ca prend environ 24h).
-
-![dialogflow](../images/dialogflow7.png)
+Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Services" puis "Configurer" sur la ligne "Assistant vocaux" à partir de votre profils et attendre que le status passe à actif (ca prend environ 6h).
 
 > **IMPORTANT**
 >
@@ -69,13 +83,9 @@ Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supp
 
 # FAQ
 
->**Google me dit que l'application n'est pas disponible**
->
->L'application est pour l'instant limité géographiquement à la métropole France. Nous l'ouvrir dans un second après les premiers retour
-
 >**J'ai l'erreur ESOCKETTIMEDOUT**
 >
->C'est que votre URL ou la clef API configurée sur le market n'est pas bonne
+>C'est que votre URL ou la clef API configurée sur le market n'est pas bonne. Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes.
 
 >**Lors d'un "parler a jeedom" vous recevez IMMÉDIATEMENT un "Erreur votre le serveur de configuration n'a pas répondu correctement. Merci d'aller voir la documentation code 500"**
 >
