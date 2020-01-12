@@ -1,3 +1,7 @@
+# 11/01/2020
+
+- Mise a jour de la doc
+
 # 15/10/2019
 
 - Envoi automatique de la configuration au market lors de l'installation

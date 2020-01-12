@@ -20,8 +20,6 @@ En mode cloud (et uniquement en mode cloud), il y a des délai de synchronisatio
 - Changement de l'url du jeedom
 - Changement de mot de passe market
 
-La synchronisation se fait toute les 6h (à 00h10,6h10,12h10,18h10). Cette synchronisation est du a notre volonté de rendre le serveur tierce qui fait le bon entre votre Jeedom et l'infrastructure Google Home independant et autonome (ca évite lors d'un soucis sur le market par exemple de perdre aussi les service Assistant vocaux). Lors de la synchronisation il y a un redemarrage du service (coupure de moins de 1s), ce qui explique la limitation à une fois toute les 6h.
-
 # Configuración
 
 Installez le plugin et activez-le. Ensuite toujours sur la page de configuration du plugin cliquez sur "Envoyer" pour envoyer votre configuration au market.
@@ -76,8 +74,6 @@ Pour s'en servir rien de plus simple il faut aller sur la page de configuration 
 # Remise à zéro de la configuration
 
 Si vous avez mis une mauvais URL ou clef API ou un changement d'url ou de clef API il faut faire un reset de la configuration puis refaire la procedure de connexion voila comment faire.
-
-Allez sur le market et corriger l'information, attendre 24h (il faut absolument que la configuration passe en actif).
 
 Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supprimer configuration". L'application devrait vous dire que la configuration est supprimée avec succès. Ensuite refaite la procedure de connexion.
 
