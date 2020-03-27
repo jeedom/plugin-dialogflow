@@ -1,96 +1,96 @@
-# Presentación
+# Presentación 
 
-Le plugin dialogflow permet de connecter Jeedom à Google Home/Assitant par une application native et les interactions
+El plugin dialogflow permite conectar Jeedom a Google Home / Assistant mediante una aplicación nativa e interacciones
 
-> **NOTE**
+> **Nota**
 >
-> Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home/Assitant mais cette fois par le bais de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions.
+> También está el complemento Google Smarthome que le permite conectar Jeedom a Google Home / Assistant, pero esta vez mediante la integración de la integración Smarthome de Google, por lo tanto, no utiliza interacciones.
 
-> **Important**
+> **Importante**
 >
-> Le plugin necessite un abonnement aux services vocaux. Vous pouvez gérer votre abonnement [ici](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> El complemento requiere una suscripción a los servicios de voz.. Puede administrar su suscripción [aquí] (https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-## Synchronisation et délai
+## Sincronización y retraso
 
-En mode cloud (et uniquement en mode cloud), il y a des délai de synchronisation lors des actions suivantes :
+En modo de nube (y solo en modo de nube), hay retrasos de sincronización durante las siguientes acciones :
 
-- Activation du compte
-- Achat d'année sur le service Assistant Vocaux
-- Changement de clef api du plugin Google smarthome
-- Changement de l'url du jeedom
-- Changement de mot de passe market
+- Activacion de cuenta
+- Compra del año en el servicio Voice Assistant
+- Cambio de clave API API del complemento smarthome
+- Cambio de url de Jeedom
+- Cambiar mercado de contraseñas
 
 # Configuración
 
-Installez le plugin et activez-le. Ensuite toujours sur la page de configuration du plugin cliquez sur "Envoyer" pour envoyer votre configuration au market.
+Instala el complemento y actívalo. Luego, siempre en la página de configuración del complemento, haga clic en "Enviar" para enviar su configuración al mercado.
 
 ![dialogflow](../images/dialogflow1.png)
 
-> **IMPORTANT**
+> **Importantee**
 >
-> Vous n'avez pas à créer d'équipement pour ce plugin. Il vous suffit de suivre les instructions ci-dessous.
+> No tiene que crear ningún equipo para este complemento.. Solo sigue las instrucciones a continuación.
 
-Sur le market il vous faut activer "Google Smarthome" dans l'onglet "Mes Services" puis "Configurer" sur la ligne "Assistant vocaux" à partir de votre profils et attendre que le status passe à actif (ca prend environ 6h).
+En el mercado, debe activar "Google Smarthome" en la pestaña "Mis servicios" y luego "Configurar" en la línea "Asistente de voz" de sus perfiles y esperar hasta que el estado cambie a activo (se tarda unas 6 horas).
 
-> **IMPORTANT**
+> **Importantee**
 >
-> L'url d'accès de votre jeedom doit absolument être en https
+> La url de acceso de su libertad debe estar absolutamente en https
 
-> **NOTE**
+> **Nota**
 >
-> Vous ne pouvez connecter que un seul Jeedom à Google par compte market
+> Solo puede conectar un Jeedom a Google por cuenta de mercado
 
-> **IMPORTANT**
+> **Importantee**
 >
-> Suite à l'activation et/ou modification des informations pour Google Smarthome il faut **attendre 24h** pour que cela soit prise en compte
+> Después de la activación y / o modificación de la información de Google Smarthome, debe **espera 24h** para que esto se tenga en cuenta
 
-Sur un téléphone avec Google Assistant, dites "Parler avec Jeedom", Google va vous indiquer qu'il faut lier votre compte Jeedom et Google cliquez sur oui : 
+En un teléfono con el Asistente de Google, di "Habla con Jeedom", Google te dirá que vincules tu cuenta de Jeedom y Google haga clic en sí : 
 
 ![dialogflow](../images/dialogflow2.png)
 
-Indiquez vos identifiants market : 
+Indique sus identificadores de mercado : 
 
 ![dialogflow](../images/dialogflow3.png)
 
-Google va vous indiquer que la configuration est crée/mise à jour avec succès : 
+Google le dirá que la configuración se ha creado / actualizado correctamente : 
 
 ![dialogflow](../images/dialogflow4.png)
 
-Voilà, le lien entre votre Jeedom et Google Home/Assistant est fait.
+Aquí, se realiza el enlace entre su Jeedom y Google Home / Assistant.
 
-Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home/Assistant.
-Depuis votre Google Home/Assistant, dites simplement "Parler à Jeedom", "Demande à Jeedom" ou encore "Dis à Jeedom" pour démarrer l'interaction avec Jeedom et "Merci" quand vous avez terminé pour clore la conversation.
+Ahora puede hablar con su Jeedom y usar todas las interacciones de su Jeedom directamente desde su Google Home / Assistant.
+Desde su Google Home / Assistant, simplemente diga "Talk to Jeedom", "Ask Jeedom" o incluso "Say to Jeedom" para iniciar la interacción con Jeedom y "Thank you" cuando haya terminado para finalizar la conversación..
 
-# Mode sécurisé
+# Modo seguro
 
-Le mode sécurisé rajoute une couche d'autorisation au niveau de Jeedom. Par defaut seul la clef API est nécessaire en mode securisé il y a une 2eme chaine de caractère unique par utilisateur (non stocker completement en base) qui doit etre valide.
+El modo seguro agrega una capa de autorización en Jeedom. De forma predeterminada, solo la clave API es necesaria en modo seguro, hay una segunda cadena de caracteres única por usuario (no almacenada completamente en la base de datos) que debe ser válida.
 
-Pour s'en servir rien de plus simple il faut aller sur la page de configuration du plugin et activer le mode sécurisé, ensuite vous faite une demande à Google pour Jeedom. Enfin aller sur la page Plugin -> Communication -> Dialogflow vous allez voir une demande d'acceptation d'identifiant il suffit de la valider.
+Para usarlo de manera más simple, debe ir a la página de configuración del complemento y activar el modo seguro, luego solicitar a Google por Jeedom. Finalmente, vaya a la página Complemento -> Comunicación -> Dialogflow. Verá una solicitud de aceptación de un identificador, solo valídelo..
 
-> **NOTE**
+> **Nota**
 >
-> Le mode sécurisé n'est pas actif par défaut pour pouvoir passer la validation Google mais il est grandement conseillé de l'activer
+> El modo seguro no está activo de forma predeterminada para poder pasar la validación de Google, pero se recomienda encarecidamente activarlo
 
-# Remise à zéro de la configuration
+# Restablecer configuración
 
-Si vous avez mis une mauvais URL ou clef API ou un changement d'url ou de clef API il faut faire un reset de la configuration puis refaire la procedure de connexion voila comment faire.
+Si ha introducido una URL o clave API incorrecta o un cambio de URL o clave API, debe restablecer la configuración y rehacer el procedimiento de conexión..
 
-Ensuite sur l'application Google Assistante, dites "Parler à Jeedom" puis "Supprimer configuration". L'application devrait vous dire que la configuration est supprimée avec succès. Ensuite refaite la procedure de connexion.
+Luego, en la aplicación Asistente de Google, diga "Talk to Jeedom" y luego "Eliminar configuración". La aplicación debería decirle que la configuración se eliminó correctamente. Luego repita el procedimiento de conexión.
 
-# FAQ
+# Preguntas frecuentes
 
->**J'ai l'erreur ESOCKETTIMEDOUT**
+>**Tengo el error ESOCKETTIMEDOUT**
 >
->C'est que votre URL ou la clef API configurée sur le market n'est pas bonne. Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes.
+>¿Es que su URL o clave API configurada en el mercado no es buena?. También preste atención al tiempo de respuesta definido en las interacciones, Google impone un tiempo de respuesta antes del tiempo de espera de 4 segundos.
 
->**Lors d'un "parler a jeedom" vous recevez IMMÉDIATEMENT un "Erreur votre le serveur de configuration n'a pas répondu correctement. Merci d'aller voir la documentation code 500"**
+>**Durante una "conversación con Jeedom", INMEDIATAMENTE recibe un "Error que su servidor de configuración no respondió correctamente. Vaya al código de documentación 500"**
 >
->Aller sur cette [url](https://gala-demo.appspot.com), sur cette page selectionnez votre compte Google (celui utilisé par Google Home/Assistant) dans "Service ID" mettez jeedom-183212 et cliquez sur "Unlink my account" (bouton à droite). Ensuite dans Google Assistant refaite la configuration (sauf partie market)
+>Ve a esta [url] (https://gala-demo.appspot.com), en esta página seleccione su cuenta de Google (la utilizada por Google Home / Assistant) en "ID de servicio", coloque jeedom-183212 y haga clic en "Desvincular mi cuenta" (botón a la derecha). Luego, en Google Assistant, vuelva a hacer la configuración (excepto la parte del mercado)
 
->**Erreur votre Jeedom n'a pas répondu correctement code ETIMEDOUT. Autre chose**
+>**Error su Jeedom no respondió correctamente Código ETIMEDOUT. Otra cosa**
 >
->Cela vient de votre Jeedom qui n'a pas répondu dans le temps impartie (imposé par Google). Cela peut venir de 2 choses, une connexion internet un peu lente, ou des actions qui demande trop de temps.
+>Esto proviene de su Jeedom que no respondió dentro del límite de tiempo (impuesto por Google). Puede provenir de 2 cosas, una conexión lenta a Internet o acciones que toman demasiado tiempo..
 
->**A chaque demande Google vous indique que votre configuration a bien été mise à jour**
+>**En cada solicitud, Google indica que su configuración ha sido actualizada**
 >
->C'est que Google ne reconnait pas votre voix il vous considere donc comme un nouvelle utilisateur. Pour corriger vous pouvez essayer de reconfigurer voice match.
+>Es que Google no reconoce tu voz, por lo que te considera como un nuevo usuario. Para corregir puede intentar reconfigurar la coincidencia de voz.

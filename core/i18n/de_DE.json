@@ -1,0 +1,28 @@
+{
+    "plugins\/dialogflow\/plugin_info\/configuration.php": {
+        "Attention votre connexion externe ne semble pas etre en https, ce plugin nécessite ABSOLUMENT une connexion https. Si vous ne savez pas comment faire vous pouvez souscrire à un service pack power pour utiliser le service de DNS Jeedom": "Bitte beachten Sie, dass Ihre externe Verbindung nicht in https zu sein scheint. Dieses Plugin erfordert ABSOLUT eine https-Verbindung. Wenn Sie nicht wissen, wie, können Sie ein Netzteil abonnieren, um den Jeedom-DNS-Dienst zu nutzen",
+        "Abonnement service assistant vocaux": "Abonnement des Sprachassistenten-Dienstes",
+        "Votre abonnement aux services assistant vocaux fini le ": "Ihr Abonnement für Sprachassistentendienste endete am",
+        "Pour le prolonger, allez": "Um es zu erweitern, gehen Sie",
+        "ici": "hier",
+        "Votre abonnement aux services assistant vocaux est illimité.": "Ihr Abonnement für Sprachassistentendienste ist unbegrenzt.",
+        "Votre abonnement aux services assistant vocaux est fini.": "Ihr Abonnement für Sprachassistentendienste ist beendet.",
+        "Pour vous réabonner, allez": "Um sich erneut anzumelden, gehen Sie",
+        "Envoyer configuration au market": "Konfiguration an den Markt senden",
+        "Envoyer": "Senden",
+        "Configuration envoyée avec succès": "Konfiguration erfolgreich gesendet"
+    },
+    "plugins\/dialogflow\/desktop\/php\/dialogflow.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Ce plugin ne necessite aucune configuration": "Dieses Plugin erfordert keine Konfiguration"
+    },
+    "plugins\/dialogflow\/core\/php\/jeeDialogflow.php": {
+        "Vous n\\'etes pas autorisé à effectuer cette action. Clef API invalide. Merci de corriger la clef API sur votre page profils du market et d\\'attendre 24h avant de réessayer.": "Sie sind nicht berechtigt, diese Aktion auszuführen. Ungültiger API-Schlüssel. Bitte korrigieren Sie den API-Schlüssel auf Ihrer Marktprofilseite und warten Sie 24 Stunden, bevor Sie es erneut versuchen.",
+        "Configuration OK": "Konfiguration OK",
+        "Plugin inactif": "Inaktives Plugin"
+    },
+    "plugins\/dialogflow\/core\/ajax\/dialogflow.ajax.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Aucune méthode correspondante à : ": "Keine Methode entsprechend:"
+    }
+}
