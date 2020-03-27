@@ -29,9 +29,9 @@ if (init('apikey') != '') {
 header('Content-type: application/json');
 $data = json_decode(file_get_contents('php://input'), true);
 if (isset($data['lang']) && method_exists('translate', 'setLanguage') && str_replace('_', '-', strtolower(translate::getLanguage())) != $data['lang']) {
-	if (strpos($data['lang'], 'en-') !== false) {
+	if (strpos($data['lang'], 'en') !== false) {
 		translate::setLanguage('en_US');
-	} elseif (strpos($data['lang'], 'fr-') !== false) {
+	} elseif (strpos($data['lang'], 'fr') !== false) {
 		translate::setLanguage('fr_FR');
 	}
 }

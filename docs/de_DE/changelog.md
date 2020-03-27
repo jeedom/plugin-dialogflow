@@ -1,49 +1,57 @@
-# 15/10/2019
+# 27.03.2020
 
-- Envoi automatique de la configuration au market lors de l'installation
+- Korrektur eines Sprachproblems
 
-# 13/08/2019
+# 01/11/2020
 
-- Mise à jour de la documentation
+- Aktualisieren des Dokuments
 
-# 03/08/2019
+# 15.10.2019
 
-- Correction de bug
-- Suppression du mode securisé suite à la supression de l'identifiant coté google
+- Automatisches Senden der Konfiguration an den Markt während der Installation
 
-# 16/06/2019
+# 2019.08.13
+
+- Aktualisierung der Dokumentation
+
+# 08/03/2019
+
+- Fehlerbehebung
+- Löschen des sicheren Modus nach dem Löschen der Kennung auf der Google-Seite
+
+# 16.06.2019
 
 - Fehlerbehebungen
 
-# 03/06/20198
+# 06/03/2019
 
-- Ajout de l'information sur l'abonnement aux services vocaux
+- Hinzufügen von Abonnementinformationen zu Sprachdiensten
 
-# 31/05/2019
+# 31.05.2019
 
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Wichtig : Ab dem 01.06.2019 werden Sprachdienste kostenpflichtig. Sie können Ihren Status auf Ihrer Profilseite auf dem Markt sehen
 
-# 19/06/2018
+# 19.06.2008
 
-- Mise à jour de la documentation
+- Aktualisierung der Dokumentation
 
-# 07/05/2018
+# 05/07/2018
 
-- Mise à jour de la documentation pour préciser le timeout google
+- Aktualisierung der Dokumentation zur Klärung des Google-Zeitlimits
 
-# 25/03/2018
+# 25.03.2008
 
-- Correction d'un bug sur le test de connexion sous firefox
+- Korrektur eines Fehlers beim Verbindungstest unter Firefox
 
-# 21/03/2018
+# 21.03.2008
 
-- Aktualisierung des Dokuments
+- Aktualisieren des Dokuments
 
-# 22/02/2018
+# 22.02.2008
 
-- Changement de l'icone
+- Symbolwechsel
 
-# 20/02/2018
+# 20.02.2008
 
-- Ajout d'un bouton pour envoyer la configuration automatiquement au market
-- Corrections de bugs
+- Fügen Sie eine Schaltfläche hinzu, um die Konfiguration automatisch an den Markt zu senden
+- Fehlerbehebungen

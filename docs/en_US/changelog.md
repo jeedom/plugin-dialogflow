@@ -1,49 +1,57 @@
-# 15/10/2019
+# 03/27/2020
 
-- Envoi automatique de la configuration au market lors de l'installation
+- Correction of a language problem
 
-# 13/08/2019
+# 01/11/2020
 
-- Updated documentation
+- Updating the doc
 
-# 03/08/2019
+# 10/15/2019
 
-- Correction de bug
-- Suppression du mode securisé suite à la supression de l'identifiant coté google
+- Automatic sending of the configuration to the market during installation
 
-# 16/06/2019
+# 08/13/2019
 
-- Correction de bugs
+- Documentation update
 
-# 03/06/20198
+# 08/03/2019
 
-- Ajout de l'information sur l'abonnement aux services vocaux
+- Bug fix
+- Deletion of secure mode following the deletion of the identifier on the google side
 
-# 31/05/2019
+# 06/16/2019
 
-- IMPORTANT : a partir du 01/06/2019 les services vocaux deviennent payant, vous pouvez voir votre status sur votre page profils sur le market, onglet mes services
+- Bugfix
 
-# 19/06/2018
+# 06/03/2019
 
-- Updated documentation
+- Adding subscription information to voice services
 
-# 07/05/2018
+# 05/31/2019
 
-- Mise à jour de la documentation pour préciser le timeout google
+- Important : from 01/06/2019 the voice services become chargeable, you can see your status on your profile page on the market, tab my services
 
-# 25/03/2018
+# 06/19/2018
 
-- Correction d'un bug sur le test de connexion sous firefox
+- Documentation update
 
-# 21/03/2018
+# 05/07/2018
 
-- Mise à jour de la doc
+- Documentation update to clarify google timeout
 
-# 22/02/2018
+# 03/25/2018
 
-- Changement de l'icone
+- Correction of a bug on the connection test under firefox
 
-# 20/02/2018
+# 03/21/2018
 
-- Ajout d'un bouton pour envoyer la configuration automatiquement au market
-- Corrections de bugs
+- Updating the doc
+
+# 02/22/2018
+
+- Icon change
+
+# 02/20/2018
+
+- Add a button to automatically send the configuration to the market
+- Bug fixes
