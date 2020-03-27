@@ -1,3 +1,7 @@
+# 27/03/2020
+
+- Correction d'un soucis de langue
+
 # 11/01/2020
 
 - Mise a jour de la doc
