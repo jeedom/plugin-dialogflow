@@ -33,6 +33,8 @@ if (isset($data['lang']) && method_exists('translate', 'setLanguage') && str_rep
 		translate::setLanguage('en_US');
 	} elseif (strpos($data['lang'], 'fr') !== false) {
 		translate::setLanguage('fr_FR');
+	} elseif (strpos($data['lang'], 'es') !== false) {
+		translate::setLanguage('es_ES');
 	}
 }
 
