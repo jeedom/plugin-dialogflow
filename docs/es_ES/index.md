@@ -20,7 +20,7 @@ Instala el complemento y actívalo. Luego, siempre en la página de configuraci�
 >
 > No tiene que crear ningún equipo para este complemento.. Solo sigue las instrucciones a continuación.
 
-".
+En el Market debe activar "Google Smarthome" en la pestaña "Mis servicios"".
 
 > **Importantee**
 >

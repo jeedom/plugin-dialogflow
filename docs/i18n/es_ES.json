@@ -1,6 +1,6 @@
 {
     "changelog.md": {
-        "31\/03\/2020": "",
+        "31\/03\/2020": "31\/03\/2020",
         "Mise à jour de la documentation": "Actualización de la documentación",
         "27\/03\/2020": "27\/03\/2020",
         "Correction d'un soucis de langue": "Corrección de un problema de lenguaje.",
@@ -47,7 +47,7 @@
         "IMPORTANT": "Importante",
         "Vous n'avez pas à créer d'équipement pour ce plugin": "No tiene que crear ningún equipo para este complemento.",
         "Il vous suffit de suivre les instructions ci-dessous": "Solo sigue las instrucciones a continuación",
-        "Sur le market il vous faut activer \"Google Smarthome\" dans l'onglet \"Mes Services": "",
+        "Sur le market il vous faut activer \"Google Smarthome\" dans l'onglet \"Mes Services": "En el Market debe activar \"Google Smarthome\" en la pestaña \"Mis servicios\"",
         "L'url d'accès de votre jeedom doit absolument être en https": "La url de acceso de su libertad debe estar absolutamente en https",
         "Vous ne pouvez connecter que un seul Jeedom à Google par compte market": "Solo puede conectar un Jeedom a Google por cuenta de mercado",
         "Sur un téléphone avec Google Assistant, dites \"Parler avec Jeedom\", Google va vous indiquer qu'il faut lier votre compte Jeedom et Google cliquez sur oui": "En un teléfono con el Asistente de Google, di \"Habla con Jeedom\", Google te dirá que vincules tu cuenta de Jeedom y Google haga clic en sí",
