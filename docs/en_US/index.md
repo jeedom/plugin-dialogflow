@@ -8,21 +8,21 @@ The dialogflow plugin makes it possible to connect Jeedom to Google Home / Assis
 
 > **Important**
 >
-> The plugin requires a subscription to voice services. You can manage your subscription [here] (https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> The plugin requires a subscription to voice services. You can manage your subscription [here](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-# Setup
+# Configuration
 
 Install the plugin and activate it. Then always on the plugin configuration page click on "Send" to send your configuration to the market.
 
 ![dialogflow](../images/dialogflow1.png)
 
-> **Important**
+> **IMPORTANT**
 >
 > You don't have to create any equipment for this plugin. Just follow the instructions below.
 
-".
+On the market you must activate "Google Smarthome" in the "My Services" tab".
 
-> **Important**
+> **IMPORTANT**
 >
 > The access url of your jeedom must absolutely be in https
 
@@ -47,7 +47,7 @@ Here, the link between your Jeedom and Google Home / Assistant is made.
 You can now talk to your Jeedom and use all the interactions of your Jeedom directly from your Google Home / Assistant.
 From your Google Home / Assistant, just say "Talk to Jeedom", "Ask Jeedom" or even "Say to Jeedom" to start interaction with Jeedom and "Thank you" when you're done to end the conversation.
 
-# Faq
+# FAQ
 
 >**I have the error ESOCKETTIMEDOUT**
 >
