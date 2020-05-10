@@ -1,4 +1,4 @@
-# Presentation
+# Dialogflow
 
 The dialogflow plugin makes it possible to connect Jeedom to Google Home / Assistant by a native application and interactions
 
@@ -8,7 +8,7 @@ The dialogflow plugin makes it possible to connect Jeedom to Google Home / Assis
 
 > **Important**
 >
-> The plugin requires a subscription to voice services. You can manage your subscription [here](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+> The plugin requires a subscription to voice services. You can manage your subscription [here](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 # Configuration
 
@@ -30,15 +30,15 @@ On the market you must activate "Google Smarthome" in the "My Services" tab".
 >
 > You can only connect one Jeedom to Google per market account
 
-On a phone with Google Assistant, say "Speak with Jeedom", Google will tell you to link your Jeedom account and Google click on yes : 
+On a phone with Google Assistant, say "Speak with Jeedom", Google will tell you to link your Jeedom account and Google click on yes :
 
 ![dialogflow](../images/dialogflow2.png)
 
-Indicate your market identifiers : 
+Indicate your market identifiers :
 
 ![dialogflow](../images/dialogflow3.png)
 
-Google will tell you that the configuration is successfully created / updated : 
+Google will tell you that the configuration is successfully created / updated :
 
 ![dialogflow](../images/dialogflow4.png)
 

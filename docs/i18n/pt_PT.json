@@ -37,7 +37,6 @@
         "IMPORTANT]": "IMPORTANTE]"
     },
     "index.md": {
-        "Présentation": "1. Introdução",
         "Le plugin dialogflow permet de connecter Jeedom à Google Home\/Assitant par une application native et les interactions": "O plug-in de fluxo de diálogo torna possível conectar o Jeedom ao Google Home \/ Assistant por um aplicativo nativo e interações",
         "Il existe aussi le plugin Google Smarthome qui permet de connecter Jeedom à Google Home\/Assitant mais cette fois par le bais de l'intégration Smarthome de Google, celui-ci n'utilise donc pas les intéractions": "Há também o plug-in do Google Smarthome, que permite conectar o Jeedom ao Google Home \/ Assistant, mas desta vez para a integração do Google Smarthome, ele não usa interações.",
         "Le plugin necessite un abonnement aux services vocaux": "O plug-in requer uma assinatura para serviços de voz",
@@ -62,6 +61,11 @@
         "Autre chose": "Algo mais",
         "Cela vient de votre Jeedom qui n'a pas répondu dans le temps impartie (imposé par Google)": "Isso vem do seu Jeedom, que não respondeu dentro do prazo (imposto pelo Google)",
         "Cela peut venir de 2 choses, une connexion internet un peu lente, ou des actions qui demande trop de temps": "Pode vir de duas coisas, uma conexão lenta à Internet ou ações que demoram muito.",
+        " Dialogflow.": " Fluxo de Diálogo.",
+        " Dialogflow?": " Fluxo de Diálogo?",
+        "Dialogflow ": "Fluxo de Diálogo ",
+        "[Dialogflow": "[Fluxo de Diálogo",
+        "Dialogflow]": "Fluxo de Diálogo]",
         " NOTE.": " NOTA.",
         " NOTE?": " NOTA?",
         "NOTE ": "NOTA ",
