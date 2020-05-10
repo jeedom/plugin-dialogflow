@@ -1,3 +1,7 @@
+>**IMPORTANT**
+>
+>Pour rappel si il n'y a pas de d'informations sur la mise à jour c'est que celle-ci ne concerne que de la mise à jour de documentation ou de traduction
+
 # 31/03/2020
 
 - Mise à jour de la documentation
