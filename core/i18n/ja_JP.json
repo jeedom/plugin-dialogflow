@@ -24,5 +24,8 @@
     "plugins\/dialogflow\/core\/ajax\/dialogflow.ajax.php": {
         "401 - Accès non autorisé": "401-不正アクセス",
         "Aucune méthode correspondante à : ": "以下に対応するメソッドはありません："
+    },
+    "info.json": {
+        "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom": ""
     }
 }

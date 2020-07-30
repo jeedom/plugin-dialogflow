@@ -55,4 +55,4 @@ No seu Home / Assistente do Google, basta dizer "Fale com o Jeedom", "Pergunte a
 
 >**Erro: seu Jeedom não respondeu corretamente o código ETIMEDOUT. Algo mais**
 >
->Isso vem do seu Jeedom, que não respondeu dentro do prazo (imposto pelo Google). Pode vir de duas coisas, uma conexão lenta à Internet ou ações que demoram muito.
+>Isso vem do seu Jeedom, que não respondeu dentro do tempo previsto (imposto pelo Google). Pode vir de duas coisas, uma conexão lenta à Internet ou ações que demoram muito.

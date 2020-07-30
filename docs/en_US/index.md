@@ -55,4 +55,4 @@ From your Google Home / Assistant, just say "Talk to Jeedom", "Ask Jeedom" or ev
 
 >**Error your Jeedom did not answer correctly ETIMEDOUT code. Something else**
 >
->This comes from your Jeedom which did not respond within the time limit (imposed by Google). It can come from 2 things, a slow internet connection, or actions that take too long.
+>This comes from your Jeedom which did not respond within the allotted time (imposed by Google). It can come from 2 things, a slow internet connection, or actions that take too long.
