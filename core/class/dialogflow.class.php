@@ -23,6 +23,30 @@ class dialogflow extends eqLogic {
 	/*     * *************************Attributs****************************** */
 
 	/*     * ***********************Methode static*************************** */
+	
+		
+	public static function postConfig_enableApikeyRotate($_value){
+		$cron = cron::byClassAndFunction('dialogflow', 'rotateApiKey');
+		if($_value == 1){
+			if(!is_object($cron)){
+				$cron = new cron();
+			}
+			$cron->setClass('dialogflow');
+			$cron->setFunction('rotateApiKey');
+			$cron->setLastRun(date('Y-m-d H:i:s'));
+			$cron->setSchedule(rand(0,59).' '.rand(0,23).' * * *');
+			$cron->save();
+		}else{
+			if(is_object($cron)){
+				$cron->remove();
+			}
+		}
+	}
+	
+	public static function rotateApiKey($_option = array()){
+		config::save('api', config::genKey(), 'dialogflow');
+		self::sendJeedomConfig();
+	}
 
 	public static function sendJeedomConfig() {
 		$market = repo_market::getJsonRpc();
