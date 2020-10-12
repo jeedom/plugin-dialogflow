@@ -10,6 +10,7 @@
         "Pour vous réabonner, allez": "",
         "Envoyer configuration au market": "",
         "Envoyer": "Отправить",
+        "Activer la rotation de la clef api": "",
         "Configuration envoyée avec succès": ""
     },
     "plugins\/dialogflow\/desktop\/php\/dialogflow.php": {

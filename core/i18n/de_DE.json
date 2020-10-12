@@ -10,6 +10,7 @@
         "Pour vous réabonner, allez": "Um sich erneut anzumelden, gehen Sie",
         "Envoyer configuration au market": "Konfiguration an den Markt senden",
         "Envoyer": "Senden",
+        "Activer la rotation de la clef api": "Aktivieren Sie die Drehung der API-Taste",
         "Configuration envoyée avec succès": "Konfiguration erfolgreich gesendet"
     },
     "plugins\/dialogflow\/desktop\/php\/dialogflow.php": {

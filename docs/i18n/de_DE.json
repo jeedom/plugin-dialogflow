@@ -2,6 +2,7 @@
     "changelog.md": {
         "Changelog Dialog flow": "Changelog Dialogfluss",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt",
+        "Possibilité d'activer la rotation automatique de la clef api": "Möglichkeit der Aktivierung der automatischen Drehung des API-Schlüssels",
         "31\/03\/2020": "31.03.2020",
         "Mise à jour de la documentation": "Aktualisierung der Dokumentation",
         "27\/03\/2020": "27.03.2020",

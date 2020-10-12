@@ -10,6 +10,7 @@
         "Pour vous réabonner, allez": "Para volver a suscribirse, vaya",
         "Envoyer configuration au market": "Enviar configuración al mercado",
         "Envoyer": "Enviar",
+        "Activer la rotation de la clef api": "Activar la rotación de la clave api",
         "Configuration envoyée avec succès": "Configuración enviada con éxito"
     },
     "plugins\/dialogflow\/desktop\/php\/dialogflow.php": {
