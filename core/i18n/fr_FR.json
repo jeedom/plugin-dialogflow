@@ -10,6 +10,7 @@
         "Pour vous réabonner, allez": "Pour vous réabonner, allez",
         "Envoyer configuration au market": "Envoyer configuration au market",
         "Envoyer": "Envoyer",
+        "Activer la rotation de la clef api": "Activer la rotation de la clef api",
         "Configuration envoyée avec succès": "Configuration envoyée avec succès"
     },
     "plugins\/dialogflow\/desktop\/php\/dialogflow.php": {
@@ -24,5 +25,8 @@
     "plugins\/dialogflow\/core\/ajax\/dialogflow.ajax.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Aucune méthode correspondante à : ": "Aucune méthode correspondante à : "
+    },
+    "info.json": {
+        "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom": "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom"
     }
 }

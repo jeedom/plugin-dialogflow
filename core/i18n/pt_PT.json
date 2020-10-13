@@ -5,11 +5,12 @@
         "Votre abonnement aux services assistant vocaux fini le ": "Sua assinatura dos serviços de assistente de voz terminou em",
         "Pour le prolonger, allez": "Para estendê-lo, vá",
         "ici": "aqui",
-        "Votre abonnement aux services assistant vocaux est illimité.": "Sua assinatura dos serviços de assistente de voz é ilimitada.",
-        "Votre abonnement aux services assistant vocaux est fini.": "Sua assinatura dos serviços de assistente de voz está concluída.",
+        "Votre abonnement aux services assistant vocaux est illimité.": "Sua assinatura dos serviços de assistente de voz é ilimitada",
+        "Votre abonnement aux services assistant vocaux est fini.": "Sua assinatura dos serviços de assistente de voz está concluída",
         "Pour vous réabonner, allez": "Para se inscrever novamente, vá",
         "Envoyer configuration au market": "Enviar configuração ao mercado",
         "Envoyer": "Enviar",
+        "Activer la rotation de la clef api": "Ative a rotação da chave API",
         "Configuration envoyée avec succès": "Configuração enviada com sucesso"
     },
     "plugins\/dialogflow\/desktop\/php\/dialogflow.php": {
@@ -17,12 +18,15 @@
         "Ce plugin ne necessite aucune configuration": "Este plugin não requer nenhuma configuração"
     },
     "plugins\/dialogflow\/core\/php\/jeeDialogflow.php": {
-        "Vous n\\'etes pas autorisé à effectuer cette action. Clef API invalide. Merci de corriger la clef API sur votre page profils du market et d\\'attendre 24h avant de réessayer.": "Você não está autorizado a executar esta ação. Chave de API inválida. Corrija a chave da API na sua página de perfil de mercado e aguarde 24 horas antes de tentar novamente.",
+        "Vous n\\'etes pas autorisé à effectuer cette action. Clef API invalide. Merci de corriger la clef API sur votre page profils du market et d\\'attendre 24h avant de réessayer.": "Você não está autorizado a executar esta ação. Chave de API inválida. Corrija a chave da API na sua página de perfil de mercado e aguarde 24 horas antes de tentar novamente",
         "Configuration OK": "Configuração OK",
         "Plugin inactif": "Plugin inativo"
     },
     "plugins\/dialogflow\/core\/ajax\/dialogflow.ajax.php": {
         "401 - Accès non autorisé": "401 - Acesso não autorizado",
-        "Aucune méthode correspondante à : ": "Aucune methode correspondante à : "
+        "Aucune méthode correspondante à : ": "Aucune methode correspondante à :"
+    },
+    "info.json": {
+        "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom": "O plug-in permite conversar com o Google Home \/ Assistant por meio de interações Jeedom"
     }
 }
