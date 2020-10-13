@@ -2,6 +2,7 @@
     "changelog.md": {
         "Changelog Dialog flow": "Fluxo de caixa de diálogo Changelog",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto",
+        "13\/10\/2020": "13\/10\/2020",
         "Possibilité d'activer la rotation automatique de la clef api": "Possibilidade de ativar a rotação automática da chave API",
         "31\/03\/2020": "31\/03\/2020",
         "Mise à jour de la documentation": "Atualização da documentação",
@@ -59,6 +60,9 @@
         "Voilà, le lien entre votre Jeedom et Google Home\/Assistant est fait": "Aqui, o link entre o Jeedom e o Google Home \/ Assistant é feito",
         "Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home\/Assistant": "Agora você pode conversar com seu Jeedom e usar todas as interações do seu Jeedom diretamente do seu Home \/ Assistente do Google",
         "Depuis votre Google Home\/Assistant, dites simplement \"Parler à Jeedom\", \"Demande à Jeedom\" ou encore \"Dis à Jeedom\" pour démarrer l'interaction avec Jeedom et \"Merci\" quand vous avez terminé pour clore la conversation": "No seu Home \/ Assistente do Google, basta dizer \"Fale com o Jeedom\", \"Pergunte ao Jeedom\" ou até mesmo \"Diga ao Jeedom\" para iniciar a interação com o Jeedom e \"Obrigado\" quando terminar a conversa",
+        "Supprimer l'asscoiation": "Excluir associação",
+        "Le plus simpe aller": "O mais fácil de ir",
+        "puis dans \"Service id\" mettre \"jeedom-183212\" et cliquer \"Unlink my account": "em seguida, em \"Service id\" coloque \"jeedom-183212\" e clique em \"Desvincular minha conta",
         "J'ai l'erreur ESOCKETTIMEDOUT": "Eu tenho o erro ESOCKETTIMEDOUT",
         "C'est que votre URL ou la clef API configurée sur le market n'est pas bonne": "A sua chave de URL ou API configurada no mercado não é boa",
         "Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes": "Também preste atenção ao tempo de resposta definido nas interações, o Google impõe um tempo de resposta antes do tempo limite de 4 segundos",

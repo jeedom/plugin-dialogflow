@@ -2,6 +2,7 @@
     "changelog.md": {
         "Changelog Dialog flow": "Changelog Dialogfluss",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt",
+        "13\/10\/2020": "13.10.2020",
         "Possibilité d'activer la rotation automatique de la clef api": "Möglichkeit der Aktivierung der automatischen Drehung des API-Schlüssels",
         "31\/03\/2020": "31.03.2020",
         "Mise à jour de la documentation": "Aktualisierung der Dokumentation",
@@ -59,6 +60,9 @@
         "Voilà, le lien entre votre Jeedom et Google Home\/Assistant est fait": "Hier wird die Verbindung zwischen Ihrem Jeedom und Google Home \/ Assistant hergestellt",
         "Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home\/Assistant": "Sie können jetzt mit Ihrem Jeedom sprechen und alle Interaktionen Ihres Jeedom direkt von Ihrem Google-Startseite \/ Assistenten aus nutzen",
         "Depuis votre Google Home\/Assistant, dites simplement \"Parler à Jeedom\", \"Demande à Jeedom\" ou encore \"Dis à Jeedom\" pour démarrer l'interaction avec Jeedom et \"Merci\" quand vous avez terminé pour clore la conversation": "Sagen Sie in Ihrem Google-Startseite \/ Assistenten einfach \"Mit Jeedom sprechen\", \"Jeedom fragen\" oder sogar \"Mit Jeedom sagen\", um die Interaktion mit Jeedom zu starten, und \"Danke\", wenn Sie mit dem Beenden des Gesprächs fertig sind",
+        "Supprimer l'asscoiation": "Zuordnung löschen",
+        "Le plus simpe aller": "Am einfachsten zu gehen",
+        "puis dans \"Service id\" mettre \"jeedom-183212\" et cliquer \"Unlink my account": "Geben Sie dann in \"Service-ID\" \"jeedom-183212\" ein und klicken Sie auf \"Verknüpfung meines Kontos aufheben\"",
         "J'ai l'erreur ESOCKETTIMEDOUT": "Ich habe den Fehler ESOCKETTIMEDOUT",
         "C'est que votre URL ou la clef API configurée sur le market n'est pas bonne": "Ist das Ihre auf dem Markt konfigurierte URL oder API-Schlüssel nicht gut",
         "Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes": "Beachten Sie auch die in den Interaktionen definierte Antwortzeit. Google legt eine Antwortzeit vor dem Timeout von 4 Sekunden fest",

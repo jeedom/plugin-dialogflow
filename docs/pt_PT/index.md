@@ -47,6 +47,10 @@ Aqui, o link entre o Jeedom e o Google Home / Assistant é feito.
 Agora você pode conversar com seu Jeedom e usar todas as interações do seu Jeedom diretamente do seu Home / Assistente do Google.
 No seu Home / Assistente do Google, basta dizer "Fale com o Jeedom", "Pergunte ao Jeedom" ou até mesmo "Diga ao Jeedom" para iniciar a interação com o Jeedom e "Obrigado" quando terminar a conversa.
 
+# Excluir associação
+
+O mais fácil de ir [aqui](https://gala-demo.appspot.com) em seguida, em "Service id" coloque "jeedom-183212" e clique em "Desvincular minha conta"
+
 # FAQ
 
 >**Eu tenho o erro ESOCKETTIMEDOUT**

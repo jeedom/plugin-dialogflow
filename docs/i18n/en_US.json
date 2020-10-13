@@ -2,6 +2,7 @@
     "changelog.md": {
         "Changelog Dialog flow": "Changelog Dialog flow",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text",
+        "13\/10\/2020": "10\/13\/2020",
         "Possibilité d'activer la rotation automatique de la clef api": "Possibility of activating the automatic rotation of the API key",
         "31\/03\/2020": "31\/03\/2020",
         "Mise à jour de la documentation": "Documentation update",
@@ -59,6 +60,9 @@
         "Voilà, le lien entre votre Jeedom et Google Home\/Assistant est fait": "Here, the link between your Jeedom and Google Home \/ Assistant is made",
         "Vous pouvez maintenant parler à votre Jeedom et utiliser toutes les interactions de votre Jeedom directement depuis votre Google Home\/Assistant": "You can now talk to your Jeedom and use all the interactions of your Jeedom directly from your Google Home \/ Assistant",
         "Depuis votre Google Home\/Assistant, dites simplement \"Parler à Jeedom\", \"Demande à Jeedom\" ou encore \"Dis à Jeedom\" pour démarrer l'interaction avec Jeedom et \"Merci\" quand vous avez terminé pour clore la conversation": "From your Google Home \/ Assistant, just say \"Talk to Jeedom\", \"Ask Jeedom\" or even \"Say to Jeedom\" to start interaction with Jeedom and \"Thank you\" when you're done to end the conversation",
+        "Supprimer l'asscoiation": "Delete association",
+        "Le plus simpe aller": "The easiest to go",
+        "puis dans \"Service id\" mettre \"jeedom-183212\" et cliquer \"Unlink my account": "then in \"Service id\" put \"jeedom-183212\" and click \"Unlink my account",
         "J'ai l'erreur ESOCKETTIMEDOUT": "I have the error ESOCKETTIMEDOUT",
         "C'est que votre URL ou la clef API configurée sur le market n'est pas bonne": "Is that your URL or API key configured on the market is not good",
         "Attention aussi au délai de réponse défini dans les interactions, Google impose un délai de réponse avant timeout de 4 secondes": "Also pay attention to the response time defined in the interactions, Google imposes a response time before timeout of 4 seconds",

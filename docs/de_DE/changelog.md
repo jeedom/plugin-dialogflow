@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 13.10.2020
+
 - Möglichkeit der Aktivierung der automatischen Drehung des API-Schlüssels
 
 # 31.03.2020
